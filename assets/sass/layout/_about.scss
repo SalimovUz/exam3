@@ -1,0 +1,148 @@
+// Start about us section
+
+.about__us {
+  margin-bottom: 100px;
+  width: 100%;
+  height: 700px;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-image: url("/assets/images/photos/center-img.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  .about__img-titles {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    padding: 140px 0px 180px 100px;
+    h1 {
+      margin-bottom: 65px;
+      text-align: start;
+      color: #fff;
+      font-family: Roboto;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 146.687%; /* 70.41px */
+    }
+
+    .about__img-items {
+      display: flex;
+      gap: 7px;
+
+      .about__img-span {
+        display: block;
+        width: 15px;
+        height: 15px;
+        background: #fff;
+      }
+
+      h3 {
+        width: 680px;
+        height: 42px;
+        flex-shrink: 0;
+        color: #fff;
+        font-family: Roboto;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 146.687%; /* 52.807px */
+      }
+    }
+  }
+}
+
+// Start Instagram section
+
+.insta__section {
+  .insta__logo {
+    margin-bottom: 20px;
+  }
+
+  .insta__lines {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+
+    .insta__line {
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
+
+.offer__section {
+  display: flex;
+  gap: 60px;
+
+  .offer__right {
+    .accept {
+      align-items: center;
+      gap: 5px;
+      display: flex;
+      margin-bottom: 60px;
+
+      input {
+        width: 15px;
+        height: 15px;
+        flex-shrink: 0;
+        background: var(--Gray-1, #333);
+      }
+      p {
+        color: var(--Gray-1, #333);
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 146.187%; /* 20.466px */
+
+        a {
+          color: var(--Gray-1, #333);
+          font-family: Roboto;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 146.187%;
+          text-decoration-line: underline;
+        }
+      }
+    }
+    h1 {
+      margin-bottom: 25px;
+      width: 340px;
+      color: #000;
+      font-family: Roboto;
+      font-size: 23px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 146.687%; /* 52.807px */
+    }
+
+    h3 {
+      margin-bottom: 27px;
+      width: 280px;
+      color: var(--Gray-2, #4f4f4f);
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 146.187%; /* 35.085px */
+    }
+
+    input {
+      padding: 20px;
+      width: 537px;
+      height: 58px;
+      flex-shrink: 0;
+      border: 1px solid #000;
+      background: rgba(196, 196, 196, 0);
+      color: var(--Gray-2, #4f4f4f);
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 100;
+      line-height: normal;
+      margin-bottom: 7px;
+    }
+  }
+}
